@@ -1,5 +1,5 @@
 {
-    "name": "SaaS Book",
+    "name": "Demo",
     "dockerComposeFile": ["../docker/docker-compose.yaml"],
     "service": "dev-env",
     "workspaceFolder": "/workspace",

@@ -13,5 +13,5 @@ sql_server:
 dev_env_logs:
 	cd docker && docker-compose logs dev-env
 
-swagger_logs:
+sqlserver_logs:
 	cd docker && docker-compose logs sql_server

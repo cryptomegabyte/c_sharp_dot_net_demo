@@ -10,9 +10,9 @@ services:
     env_file:
       - sqlserver/sqlserver.env
   dev-env:
-    container_name: dev_env
+    container_name: dev-env
     build:
-      context: ./dev_env
+      context: ./dev-env
     volumes:
       - "..:/workspace"
     stdin_open: true # docker run -i
